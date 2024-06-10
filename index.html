@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innovate IQ Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>innovate IQ</h1>
+        <h4>Elementary Quize App</h4>
+        <div id="stage-container">
+            <p id="stage-header">Level 1</p>
+            <p id="question"></p>
+            <div id="options">
+                <ul>
+                <!-- Options will be inserted here dynamically -->
+                </ul>
+            </div>
+            <button id="next-btn" onclick="nextQuestion()">Next</button>
+        </div>
+        <p id="result"></p>
+    </div>
+    <div>
+        <button id="next-level-btn" style="display: none;">Click here to go to the next level</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
