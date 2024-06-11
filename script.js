@@ -1,5 +1,3 @@
-// script.js
-
 const questions = [
     {
         stage: 1,
@@ -14,8 +12,6 @@ const questions = [
             { q: "What is 7 + 5?", options: ["11", "12", "13", "14"], correct: 1 },
             { q: "Which is an adjective?", options: ["fast", "cat", "jump", "the"], correct: 0 },
             { q: "What is 9 / 3?", options: ["1", "2", "3", "4"], correct: 2 },
-            { q: "Which number is even?", options: ["1", "3", "5", "8"], correct: 3 },
-            { q: "What is 3 + 4?", options: ["5", "6", "7", "8"], correct: 2 },
         ],
     },
     {
@@ -31,8 +27,6 @@ const questions = [
             { q: "What is 6 * 2?", options: ["10", "11", "12", "13"], correct: 2 },
             { q: "Which is a conjunction?", options: ["and", "quick", "dog", "yellow"], correct: 0 },
             { q: "What is 15 - 5?", options: ["10", "9", "11", "12"], correct: 0 },
-            { q: "Which word means 'large'?", options: ["small", "tiny", "big", "little"], correct: 2 },
-            { q: "What is 4 + 4?", options: ["6", "7", "8", "9"], correct: 2 },
         ],
     },
     {
@@ -48,8 +42,6 @@ const questions = [
             { q: "What is 3 * 3?", options: ["6", "7", "8", "9"], correct: 3 },
             { q: "Which is a preposition?", options: ["in", "run", "quick", "very"], correct: 0 },
             { q: "What is 18 / 2?", options: ["7", "8", "9", "10"], correct: 2 },
-            { q: "What is 5 + 7?", options: ["11", "12", "13", "14"], correct: 1 },
-            { q: "Which number is odd?", options: ["2", "4", "6", "9"], correct: 3 },
         ],
     },
     {
@@ -65,8 +57,6 @@ const questions = [
             { q: "What is 5 * 4?", options: ["19", "20", "21", "22"], correct: 1 },
             { q: "Which is a conjunction?", options: ["and", "quick", "dog", "yellow"], correct: 0 },
             { q: "What is 25 / 5?", options: ["3", "4", "5", "6"], correct: 2 },
-            { q: "Which word means 'fast'?", options: ["quick", "slow", "tall", "short"], correct: 0 },
-            { q: "What is 9 + 6?", options: ["14", "15", "16", "17"], correct: 1 },
         ],
     },
     {
@@ -75,35 +65,33 @@ const questions = [
             { q: "What is 6 * 3?", options: ["17", "18", "19", "20"], correct: 1 },
             { q: "Which is a noun?", options: ["run", "dog", "quickly", "very"], correct: 1 },
             { q: "What is 14 / 2?", options: ["6", "7", "8", "9"], correct: 1 },
-            { q: "What is the capital of Spain?", options: ["Rome", "Madrid", "Berlin", "Paris"], correct: 1 },
-            { q: "Which word is a verb?", options: ["jump", "quickly", "apple", "very"], correct: 0 },
-            { q: "What is 30 - 4?", options: ["25", "26", "27", "28"], correct: 3 },
+            { q: "What is the capital of Spain?", options: ["Berlin", "Madrid", "Rome", "Paris"], correct: 1 },
+            { q: "Which word is a verb?", options: ["run", "quickly", "apple", "very"], correct: 0 },
+            { q: "What is 21 - 3?", options: ["17", "18", "19", "20"], correct: 1 },
             { q: "Which is an adjective?", options: ["big", "jump", "fast", "the"], correct: 0 },
-            { q: "What is 4 * 4?", options: ["14", "15", "16", "17"], correct: 2 },
-            { q: "Which is a preposition?", options: ["under", "run", "quick", "very"], correct: 0 },
-            { q: "What is 21 / 3?", options: ["5", "6", "7", "8"], correct: 2 },
-            { q: "What is 11 + 11?", options: ["20", "21", "22", "23"], correct: 2 },
-            { q: "Which number is even?", options: ["3", "7", "10", "15"], correct: 2 },
+            { q: "What is 16 / 4?", options: ["3", "4", "5", "6"], correct: 1 },
+            { q: "Which is a preposition?", options: ["in", "run", "quick", "very"], correct: 0 },
+            { q: "What is 18 / 3?", options: ["5", "6", "7", "8"], correct: 1 },
         ],
     },
     {
         stage: 6,
-        questtions: [
+        questions: [
+            { q: "What is 8 * 7?", options: ["54", "55", "56", "57"], correct: 2 },
+            { q: "Which is a synonym for 'happy'?", options: ["sad", "angry", "joyful", "tired"], correct: 2 },
+            { q: "What is the capital of Canada?", options: ["Toronto", "Vancouver", "Ottawa", "Montreal"], correct: 2 },
+            { q: "What is 144 / 12?", options: ["11", "12", "13", "14"], correct: 1 },
+            { q: "Which is an antonym for 'fast'?", options: ["quick", "speedy", "slow", "rapid"], correct: 2 },
+            { q: "What is 121 / 11?", options: ["10", "11", "12", "13"], correct: 1 },
+            { q: "Which is a synonym for 'bright'?", options: ["dark", "shiny", "dull", "dim"], correct: 1 },
             { q: "What is the square root of 64?", options: ["6", "7", "8", "9"], correct: 2 },
-            { q: "Which word is an antonym of 'happy'?", options: ["sad", "joyful", "glad", "pleased"], correct: 0 },
-            { q: "What is 45 / 5?", options: ["7", "8", "9", "10"], correct: 2 },
-            { q: "What is the largest planet in our solar system?", options: ["Earth", "Mars", "Jupiter", "Venus"], correct: 2 },
-            { q: "Which sentence is in the past tense?", options: ["He runs fast.", "She will run.", "They ran quickly.", "I am running."], correct: 2 },
-            { q: "What is 11 * 11?", options: ["120", "121", "122", "123"], correct: 1 },
-            { q: "Which is a synonym of 'quick'?", options: ["slow", "fast", "happy", "big"], correct: 1 },
-            { q: "What is 100 - 47?", options: ["51", "52", "53", "54"], correct: 2 },
-            { q: "What is the chemical symbol for water?", options: ["O2", "H2O", "CO2", "H2"], correct: 1 },
-            { q: "Which sentence is correct?", options: ["Their going to school.", "They're going to school.", "There going to school.", "The're going to school."], correct: 1 },
-        ]
+            { q: "Which is a homophone for 'one'?", options: ["won", "none", "sun", "ton"], correct: 0 },
+            { q: "Which sentence uses correct grammar?", options: ["There going to school.", "They're going to school.", "Their going to school.", "The're going to school."], correct: 1 },
+        ],
     },
     {
         stage: 7,
-        questions:  [
+        questions: [
             { q: "What is 12 * 12?", options: ["142", "143", "144", "145"], correct: 2 },
             { q: "Which is a prime number?", options: ["10", "12", "15", "17"], correct: 3 },
             { q: "What is the capital of Japan?", options: ["Seoul", "Beijing", "Tokyo", "Bangkok"], correct: 2 },
@@ -129,7 +117,6 @@ function shuffleQuestions(stageIndex) {
 
 let currentStage = 0;
 let currentQuestion = 0;
-let score = 0;
 let correctAnswers = 0;
 
 const stageHeader = document.getElementById("stage-header");
@@ -137,13 +124,14 @@ const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 const nextBtn = document.getElementById("next-btn");
 const resultElement = document.getElementById("result");
+const nextLevelBtn = document.getElementById("next-level-btn");
 
 function loadQuestion() {
     const questionData = questions[currentStage].questions[currentQuestion];
     questionElement.textContent = questionData.q;
     optionsElement.innerHTML = "";
 
-    const labelsData = ["(a)", "(b)", "(c)", "(d)"];
+    const labels = ["a", "b", "c", "d"];
     questionData.options.forEach((option, index) => {
         const button = document.createElement("button");
         button.textContent = `(${labels[index]}) ${option}`;
@@ -152,6 +140,7 @@ function loadQuestion() {
     });
 
     nextBtn.style.display = "none";
+    nextLevelBtn.style.display = "none";
 }
 
 function checkAnswer(selectedIndex) {
@@ -172,17 +161,19 @@ function evaluateStage() {
     if (correctAnswers >= 7) {
         resultElement.textContent = `Congratulations! You passed Stage ${currentStage + 1}.`;
         if (currentStage < questions.length - 1) {
-            currentStage++;
-            currentQuestion = 0;
-            correctAnswers = 0;
-            loadStage();
+            nextLevelBtn.style.display = "block";
+            nextLevelBtn.onclick = () => {
+                currentStage++;
+                currentQuestion = 0;
+                correctAnswers = 0;
+                loadStage();
+            };
         } else {
             resultElement.textContent += " You have completed all stages!";
         }
     } else {
-        resultElement.textContent = `You scored ${correctAnswers}/10. Please try Stage ${currentStage + 1} again.`;
+        resultElement.textContent = `You need to repeat Stage ${currentStage + 1}. Try again!`;
         shuffleQuestions(currentStage); // Shuffle questions if stage needs to be repeated
-        currentQuestion = 0;
         currentQuestion = 0;
         correctAnswers = 0;
         loadQuestion();
@@ -191,10 +182,7 @@ function evaluateStage() {
 
 function loadStage() {
     stageHeader.textContent = `Stage ${currentStage + 1}`;
-    resultElement.textContent = "";
     loadQuestion();
 }
 
 document.addEventListener("DOMContentLoaded", loadStage);
-/*command to run the app in the terminal "xdg-open index.html" */
-/* or http-server */
